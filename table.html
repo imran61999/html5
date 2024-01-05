@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            margin: 5px;
+            padding: 5px;
+        }
+        tfoot > tr > td{
+            column-span: 4;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a>
+                    
+                        <ul class="dropdown">
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="form.html">Form</a></li>
+                            <li><a href="vedio.html">Vedio</a></li>
+                            <li><a href="table.html">Table</a></li>
+                            
+                        </ul>
+                    
+                </li>
+                <li><a href="vedio.html">Vedio</a></li>
+                <li><a href="table.html">Table</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <table>
+
+            <h1>This is information table</h1>
+            <caption>Customer Table</caption>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                    <th>Mobaile</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>8</td>
+                    <td>imran</td>
+                    <td>100</td>
+                    <td>018********</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Hossain</td>
+                    <td>900</td>
+                    <td>018********</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Ruble</td>
+                    <td>800</td>
+                    <td>016********</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Sohan</td>
+                    <td>500</td>
+                    <td>015*******</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total Employee :</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

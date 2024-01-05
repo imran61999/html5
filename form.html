@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+    <style>
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="nav.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="vedio.html">Vedio</a></li>
+                <li><a href="table.html">Table</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Please fill up form</h2>
+            <form action="">
+                <label for="name">Your name :
+                    <input type="text" id="name" placeholder="Your name">
+                </label>
+                <label for="email">Your email :
+                    <input type="email" id="email" placeholder="Your email">
+                </label>
+                <label for="password">Your password :
+                    <input type="password" id="password" placeholder="your password">
+                </label>
+                <fieldset>
+                    <legend>select pita</legend>
+                    <label for=""><input type="radio" name="pita" id="Chitoy">Chitoy</label>
+                    <label for=""><input type="radio" name="pita" id="Vapa">Vapa</label>
+                    <label for=""><input type="radio" name="pita" id="Cake">Cake</label>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Select one or more vorta</legend>
+                    <label for=""><input type="checkbox" id="shutki">Shutki</label>
+                    <label for=""><input type="checkbox" id="chili">chili</label>
+                    <label for=""><input type="checkbox" id="Begun">Begun</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
